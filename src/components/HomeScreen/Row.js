@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import axios from '../axios';
-import '../../src/styles/Row.css';
+import axios from '../../axios';
+import '../../styles/Row.css';
+
 import YouTube from 'react-youtube';
 import movieTrailer from 'movie-trailer';
 
@@ -32,7 +33,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         if (trailerUrl) {
             setTrailerUrl("");
         } else {
-            movieTrailer(movie?.title  || "")
+            movieTrailer(movie?.title || "")
                 .then((url) => {
                     const urlParams = new URLSearchParams(new URL(url).search);
                     setTrailerUrl(urlParams.get("v"));

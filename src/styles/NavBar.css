@@ -1,16 +1,18 @@
 .nav {
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 20px;
   height: 20px;
+  width: 100%;
+
+  padding: 20px;
   z-index: 1;
 
+  transition: ease-in all 0.5s;
+}
+
+.nav_contents {
   display: flex;
   justify-content: space-between;
-
-  /* transition-timing-function: ease-in; */
-  transition: ease-in all 0.5s;
 }
 
 .nav_black {
@@ -20,8 +22,9 @@
 .nav_logo {
   position: fixed;
   left: 20px;
-  width: 80px;
+  width: 90px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .nav_avatar {
@@ -29,4 +32,5 @@
   right: 20px;
   width: 30px;
   object-fit: contain;
+  cursor: pointer;
 }
