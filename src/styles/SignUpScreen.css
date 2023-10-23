@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Ubuntu:wght@300&display=swap');
 .signUpScreen {
+  font-family: ubuntu, Verdana, sans-serif;
   max-width: 300px;
   padding: 70px;
   margin-left: auto;
@@ -6,9 +8,9 @@
   background: rgba(0, 0, 0, 0.85);
 }
 
-.signUpScreen > form > h1{
-    text-align: left;
-    margin-bottom: 25px;
+.signUpScreen > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 .signUpScreen > form {
@@ -36,18 +38,36 @@
   cursor: pointer;
 }
 
-.signUpScreen > form > h4{
-    text-align: left;
-    margin-top: 30px;
-    font-size: 1rem;
+.signUpScreen > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1rem;
 }
 
-.signUpScreen_grey{
-    color: grey;
+.signUpScreen_grey {
+  color: grey;
 }
 
-.signUpScreen_link:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.signUpScreen_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
+@media only screen and (max-width: 600px) {
+  .signUpScreen {
+    
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -10px;
+  }
+
+  .signUpScreen > form > h1 {
+    font-size: 1.5rem;
+  }
+
+  .signUpScreen > form > input {
+    height: 30px;
+    border: none;
+    padding: 5px 15px;
+  }
+}
