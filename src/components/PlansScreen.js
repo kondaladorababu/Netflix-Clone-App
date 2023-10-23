@@ -27,7 +27,7 @@ function PlansScreen() {
 
     const handleSubscribe = (planName, currStatus) => {
         ///user is subscribing i.e chang status from sub to unsub
-        if (currStatus == 'subscribe') {
+        if (currStatus === 'subscribe') {
             const updatedPlans = plans.map((plan) => {
                 if (plan.name === planName) {
                     if (currStatus === "subscribe") {

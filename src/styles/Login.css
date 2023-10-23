@@ -80,7 +80,6 @@
   margin: 20px;
 }
 
-
 .loginScreen_input > form > input {
   padding: 10px;
   outline-width: 0;
@@ -101,4 +100,41 @@
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginScreen_body {
+    top: 20%;
+    width: 80%;
+  }
+
+  .loginScreen_body > h1 {
+    font-size: 2.4rem;
+  }
+
+  .loginScreen_body > h2 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .loginScreen_body > h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .loginScreen_input{
+    display: flex;
+    flex-direction: column;
+    /* flex-basis:80%; */
+  }
+
+  .loginScreen_input > form > input {
+    width: 94%;
+    margin-bottom: 5px;
+  }
+
+  .loginScreen_getStarted {
+    /* padding-right: 16px; */
+    width: 100%;
+  }
 }

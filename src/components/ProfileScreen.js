@@ -25,7 +25,7 @@ function ProfileScreen() {
                 <div className="_profieScreen_info">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile Logo" />
                     <div className="profileScreen_details">
-                        <h2>{"test@gmail.com"}</h2>
+                        <h2>{user.email}</h2>
                         <div className="profileScreen_plans">
                             <h2>Plans</h2>
                             <PlansScreen/>
