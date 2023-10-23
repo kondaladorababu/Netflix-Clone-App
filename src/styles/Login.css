@@ -108,8 +108,13 @@
     width: 80%;
   }
 
-  .loginScreen_logo{
+  .loginScreen_logo {
     width: 120px;
+  }
+
+  .loginScreen_button {
+    padding: 8px 15px;
+    font-size: 0.8rem;
   }
 
   .loginScreen_body > h1 {
@@ -126,7 +131,7 @@
     font-weight: 400;
   }
 
-  .loginScreen_input{
+  .loginScreen_input {
     display: flex;
     flex-direction: column;
     /* flex-basis:80%; */
