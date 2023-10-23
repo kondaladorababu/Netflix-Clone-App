@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+}
+
+.subscribe_button {
+  padding: 7px 25px;
+  background: #ee0d18;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grey_button{
+  background: #8e8e8e;
+  color: rgb(0, 0, 0);
+}
