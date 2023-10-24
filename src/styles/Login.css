@@ -118,8 +118,9 @@
   }
 
   .loginScreen_logo {
-    width: 110px;
-    padding-left: 10px;
+    /* height:80px; */
+    width: 105px;
+    padding-left: 8px;
   }
 
   .loginScreen_button {
