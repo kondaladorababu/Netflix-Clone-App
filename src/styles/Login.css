@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Ubuntu:wght@300&display=swap');
+
 .login_screen {
   position: relative;
   height: 100%;
   background: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png")
     center no-repeat;
   background-size: cover;
+}
+
+*{
+  font-family: ubuntu;
 }
 
 .loginScreen_gradient {
@@ -39,6 +45,7 @@
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* form */
@@ -102,6 +109,8 @@
   cursor: pointer;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .loginScreen_body {
     top: 20%;
@@ -109,21 +118,26 @@
   }
 
   .loginScreen_logo {
-    width: 120px;
+    width: 110px;
+    padding-left: 10px;
   }
 
   .loginScreen_button {
-    padding: 8px 15px;
+    top: 16px;
+    right: 15px;
+    padding: 8px 13px;
     font-size: 0.8rem;
   }
 
   .loginScreen_body > h1 {
     font-size: 2.4rem;
+    margin-bottom: 10px;
   }
 
   .loginScreen_body > h2 {
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 15px;
   }
 
   .loginScreen_body > h3 {
@@ -134,11 +148,10 @@
   .loginScreen_input {
     display: flex;
     flex-direction: column;
-    /* flex-basis:80%; */
   }
 
   .loginScreen_input > form > input {
-    width: 94%;
+    width: 92%;
     margin-bottom: 5px;
   }
 

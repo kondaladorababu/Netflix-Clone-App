@@ -14,7 +14,7 @@ function NavBar() {
         }
     }
 
-    //to make the black color is visible when user svrolls down
+    //to make the black color is visible when user scrolls down
     useEffect(() => {
         window.addEventListener("scroll", transitionNavBar);
 

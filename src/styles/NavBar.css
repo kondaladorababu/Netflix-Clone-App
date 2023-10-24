@@ -34,3 +34,20 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding-top: 15px;
+  }
+
+  .nav_logo {
+    left: 10px;
+    width: 75px;
+  }
+
+  .nav_avatar {
+    right: 10px;
+    height: 25px;
+    width: 25px;
+  }
+}

@@ -70,4 +70,8 @@
     border: none;
     padding: 5px 15px;
   }
+
+  .signUpScreen_link{
+    margin-left: 3px;
+  }
 }
